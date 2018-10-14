@@ -1,0 +1,32 @@
+{
+  "name": "rollup-plugin-ts-treeshaking",
+  "version": "1.0.0",
+  "description": "Improve TypeScript tree-shaking with Rollup and UglifyJS/Terser",
+  "author": "ex-machine",
+  "license": "MIT",
+  "homepage": "https://github.com/ex-machine/rollup-plugin-ts-treeshaking#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ex-machine/rollup-plugin-ts-treeshaking.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ex-machine/rollup-plugin-ts-treeshaking/issues"
+  },
+  "keywords": [
+    "rollup",
+    "typescript",
+    "treeshaking",
+    "tree-shaking",
+    "uglify",
+    "minify"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint **/*.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "rollup-plugin-replace": "^2.1.0"
+  },
+  "devDependencies": {}
+}

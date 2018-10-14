@@ -1,0 +1,17 @@
+src
+scripts
+
+#tests
+test
+coverage
+jest.config.js
+
+#build tools
+.travis.yml
+.jenkins.yml
+.codeclimate.yml
+
+#linters
+.jscsrc
+.jshintrc
+.eslint*
