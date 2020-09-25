@@ -1,6 +1,6 @@
 {
   "name": "rollup-plugin-ts-treeshaking",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Improve TypeScript tree-shaking with Rollup and UglifyJS/Terser",
   "author": "ex-machine",
   "license": "MIT",
@@ -21,6 +21,7 @@
     "minify"
   ],
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "lint": "eslint **/*.js",
     "test": "echo \"Error: no test specified\" && exit 1"
